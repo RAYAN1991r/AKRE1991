@@ -121,9 +121,9 @@ const help = `**
        \`\`\`  زانیاری دەربارەی ئەکاونت   \`\`\`
                   
 
-- ${config.prefix}setownerID [ID NEW OWNER] - ئایدی خۆت دابنێ
+- ${config.prefix}setownerID [896749222559367168] - ئایدی خۆت دابنێ
                   
-- ${config.prefix}setserverID [ID SERVER] - ئایدی سێرڤەر دابنێ
+- ${config.prefix}setserverID [879098307299909672] - ئایدی سێرڤەر دابنێ
                   
     ئەکاونتەکان بە ئایدی یەک کەس ئیش ئەکات ئەتوانی کۆماندی بۆ دابنێی     
 **`;
@@ -138,7 +138,7 @@ jano.on("message", async msg => {
   if (!dinfo)
     dinfo = {
       owner: config.id,
-      serverid: "NONE",
+      serverid: "879098307299909672",
   }
 }); 
 
@@ -1418,7 +1418,7 @@ jano70.on("message", message => {
         })
         .catch(console.log);
     } else {
-      message.reply("**bro vc**");
+      message.reply("**bro vc**");Y6
     }
   }
 });
@@ -3543,7 +3543,7 @@ jano83.on("ready", () => {
   }, 2000);
 });
 //////// playing or dnd  streaming ////////
-
+70
 jano84.on("ready", () => {
   console.log(
     `Online In Servers`
@@ -3870,8 +3870,8 @@ jano100.on("ready", () => {
 
 
 //////////////// tokn lera da bne 
-jano.login("");
-jano2.login("");
+jano.login("OTQ5MDE0OTU2NDg4MTQ2OTU0.YiEVlw.--rjS0TD3DSIFhv3PhdrmKeSefI");
+jano2.login("OTQ5MDA4Mjk2MzUyODE3MTky.YiEL_A.Q4KZRGcMhWv8RX4LwLRgepNgNp0");
 jano3.login("");
 jano4.login("");
 jano5.login("");
